@@ -4,9 +4,14 @@ var createElement = wp.element.createElement; // create an element in simple rea
 
 registerBlockType("blocks-course/firstblock", {
     edit: function() {
-        return "Edit";
+        //return "Edit";
+        return createElement(
+            "p", {
+                className: "firstblock",
+            },
+            "Edit");
     },
     save: function() {
-        return "Save";
+        return createElement("p", null, "Save");
     }
 });
