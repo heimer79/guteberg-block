@@ -1,0 +1,1 @@
+!function(){"use strict";var e=window.wp.element;(0,window.wp.block.registerBlockType)("blocks-course/firstblock",{edit:function(){return(0,e.createElement)("p",{className:"FirstBlock"}," Edit JSX")},save:function(){return(0,e.createElement)("p",{className:"FirstBlock"}," save JSX")}})}();
