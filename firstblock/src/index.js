@@ -1,11 +1,9 @@
-import { registerBlockType } from '@wordpress/block';
+import {registerBlockType} from "@wordpress/blocks"; // import the scripts compiler for WordPress
+import Edit from "./edit";
+import Save from "./save";
+import "./style.scss";
 
-registerBlockType( 'blocks-course/firstblock', {
-	edit: function () {
-		//return "Edit";
-		return <p className="FirstBlock"> Edit JSX</p>;
-	},
-	save: function () {
-		return <p className="FirstBlock"> save JSX</p>;
-	},
-} );
+registerBlockType("blocks-course/firstblock", {
+  edit: Edit,
+  save: Save,
+});
