@@ -20,12 +20,13 @@ import './style.scss';
 import Edit from './edit';
 import save from './save';
 
+const x = 0;
 /**
  * Every block starts by registering a new block type definition.
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-registerBlockType( 'create-block/boilerplate', {
+registerBlockType('create-block/boilerplate', {
 	/**
 	 * @see ./edit.js
 	 */
@@ -34,4 +35,4 @@ registerBlockType( 'create-block/boilerplate', {
 	 * @see ./save.js
 	 */
 	save,
-} );
+});
