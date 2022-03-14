@@ -26,7 +26,7 @@ const x = 0;
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-registerBlockType('create-block/boilerplate', {
+registerBlockType( 'create-block/boilerplate', {
 	/**
 	 * @see ./edit.js
 	 */
@@ -35,4 +35,4 @@ registerBlockType('create-block/boilerplate', {
 	 * @see ./save.js
 	 */
 	save,
-});
+} );
